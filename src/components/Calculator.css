@@ -1,0 +1,64 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: 0;
+    padding: 0px;
+}
+
+.visors {
+    width: 230px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    overflow: auto;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    width: 230px;
+}
+
+.controllers {
+    justify-content: space-between;
+    width: 180px;
+    display: flex;
+}
+.controllers > button {
+    width: 5.5rem;
+    height: 3rem;
+    background-color: brown;
+    margin-bottom: 5px
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.secont-column {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 3.3rem;
+    height: 3rem;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.\+ {
+    height: 6.3rem;
+}
